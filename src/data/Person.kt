@@ -1,5 +1,11 @@
 package data
 
-class Person {
-    var name:String = ""
+class Person(paramsName: String) {
+
+    var name = paramsName
+
+    init {
+        println("Person created!")
+    }
+
 }
